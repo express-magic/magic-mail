@@ -4,7 +4,9 @@
   "private": true,
   "main": "./mail.js",
   "dependencies": {
-    "magic-log": "express-magic/magic-log"
+    "magic-log": "express-magic/magic-log",
+    "nodemailer": "^1.3.0",
+    "nodemailer-smtp-transport": "^0.1.13"
   },
   "repository": {
     "type": "git",
