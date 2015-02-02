@@ -5,8 +5,8 @@
   "main": "./mail.js",
   "dependencies": {
     "magic-log": "file:../magic-log",
-    "nodemailer": "file:../nodemailer",
-    "nodemailer-smtp-transport": "file:../nodemailer-smtp-transport"
+    "nodemailer": "file:../../node_modules/nodemailer",
+    "nodemailer-smtp-transport": "file:../../node_modules/nodemailer-smtp-transport"
   },
   "repository": {
     "type": "git",
