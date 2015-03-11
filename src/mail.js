@@ -1,13 +1,10 @@
-var cwd           = process.cwd();
-
 import nodemailer from 'nodemailer';
 import {join} from 'path';
 import smtpTransport from 'nodemailer-smtp-transport';
 import {log} from 'magic-log';
-import config from join( cwd, 'config');
+import config from '../../config'; //TODO: load config from host as well.
 
-
-export function send(email) => {
+export function send(email) {
   if ( config.mailTransport && config.mail ) {
     config.mailTransport.to = config.mailTransport.to || config.mail;
 
